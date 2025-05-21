@@ -1,0 +1,17 @@
+/* PALETA DE CORES */
+:root {
+    --fundo: #F2A922;
+    --texto: #0477BF;
+    --destaque: #F2421B;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    
+}
+
+h1 {
+    color: var(--destaque);
+    border-bottom: 2px solid var(--texto);
+}
