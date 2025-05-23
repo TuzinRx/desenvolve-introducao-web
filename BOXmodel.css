@@ -1,0 +1,55 @@
+body {
+    width: 80%;
+    max-width: 1280;
+    margin: 0 auto   /*centralizar*/
+}
+
+/*altura da introdução*/
+.intro{
+    height: 550;
+}
+
+/* remover desing dos arquivos conteiner*/
+
+#desing-archives{
+    display: none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em; /*espaçamento*/
+}
+
+/* titulo e subtitulo */
+
+header h1, header h2 {
+    display:incline-block;
+    margin-right: 1em; /* espaço entre elas*/
+}
+
+/*espaçamento titulo*/
+header h1{
+    padding-left:1em;
+}
+
+
+/*menu*/
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sideabr li {
+    margin-bottom: 1em;
+}
+footer {
+    margin:4%
+}
+footer a {
+    border:2px solid#3330;
+    padding: 0.5em;
+    display: inline-block;
+}
